@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+}
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
+}
+img {
+  width: 100%;
+}
+span {
+  color: #ff9933;
+}
+
+/**********NAVBAR**********/
+.nav {
+  background-color: #333;
+  align-items: center;
+  display: flex;
+  color: white;
+  padding: 15px;
+  justify-content: space-between;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  opacity: 0.8;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.nav a {
+  color: white;
+  padding: 20px;
+  margin: 0px 5px;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid #ff9933;
+}
+
+.nav .navbar ul {
+  display: flex;
+}
+
+/*************BIG_SCREEN_DISPLAY***********/
+.hero {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url("../img/photography-of-roadway-during-dusk-1034662\ \(1\).jpg")
+    no-repeat center center/cover;
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+}
+#content {
+  font-size: 55px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.hero h2 {
+  font-size: 23px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero * {
+  z-index: 10;
+}
+
+/**********ABOUT:ICONS****************/
+
+.flex-items {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  padding: 30px;
+}
+
+.icon {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 10px; */
+  padding: 10px;
+  height: 100%;
+}
+
+.icon i {
+  border-radius: 50%;
+  background-color: #e64c00;
+  padding: 10px;
+  color: #333;
+}
+
+.flex-items h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/****************ABOUT:SOLUTIONS************/
+
+section .row {
+  display: flex;
+}
+
+section .column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+section .column .column-2,
+section .column .column-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+section .column .column-2 h3,
+section .column .column-2 h1,
+section .column .column-2 p {
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+section .column .column-2 img {
+  height: 100%;
+  width: 100%;
+}
+
+section .column .column-2 h3 {
+  font-weight: 400;
+  font-size: larger;
+}
+
+section .column .column-2 h1 {
+  font-weight: 300;
+  font-size: 50px;
+}
