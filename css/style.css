@@ -117,6 +117,7 @@ span {
   height: 50vh;
   width: 100%;
   padding: 30px;
+  height: 100%;
 }
 
 .icon {
@@ -144,8 +145,19 @@ span {
 
 /****************ABOUT:SOLUTIONS************/
 
+#blog {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+}
+
+#blog img {
+  height: 80vh;
+}
+
 section .row {
   display: flex;
+  flex-direction: row;
 }
 
 section .column {
@@ -184,4 +196,50 @@ section .column .column-2 h3 {
 section .column .column-2 h1 {
   font-weight: 300;
   font-size: 50px;
+}
+
+/************* Cases *****************/
+.section-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header h4 {
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.section-header h1 {
+  font-size: 50px;
+  margin: 10px 0px;
+  padding-bottom: 30px;
+}
+.section-header p {
+  padding-bottom: 20px;
+}
+
+/************** Team*************/
+
+#team {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+  flex: 1;
+  align-items: stretch;
+}
+
+.contact-us-form {
+  width: 100%;
+  padding: 20px;
+}
+
+.contact-us-form label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
 }
