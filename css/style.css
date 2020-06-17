@@ -231,6 +231,7 @@ section .column .column-2 h1 {
   align-items: stretch;
 }
 
+/* <!---Contact us --> */
 .contact-us-form {
   width: 100%;
   padding: 20px;
@@ -275,4 +276,24 @@ input:focus {
   border: 2px solid #e64c00;
   outline: none !important;
   border-radius: 5px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  margin-right: 15px;
+}
+
+.footer a:hover {
+  color: #e64c00;
 }
