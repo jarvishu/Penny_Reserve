@@ -239,7 +239,31 @@ section .column .column-2 h1 {
 .contact-us-form label {
   display: block;
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   justify-content: center;
   align-self: center;
+}
+
+.contact-us-form input {
+  width: 100%;
+  align-items: center;
+  padding: 4px;
+}
+
+.contact-us-form button {
+  margin-top: 20px;
+}
+
+.contact-us-form button:hover {
+  border: 1px solid #333;
+  color: white;
+  background-color: #ff9933;
+}
+
+.contact {
+  height: 90vh;
+}
+.contact2 img {
+  height: 90vh;
+  object-fit: cover;
 }
