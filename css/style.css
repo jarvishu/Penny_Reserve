@@ -245,9 +245,11 @@ section .column .column-2 h1 {
 }
 
 .contact-us-form input {
-  width: 100%;
+  width: 200px;
   align-items: center;
   padding: 4px;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
 }
 
 .contact-us-form button {
@@ -266,4 +268,11 @@ section .column .column-2 h1 {
 .contact2 img {
   height: 90vh;
   object-fit: cover;
+}
+
+input:focus {
+  width: 400px;
+  border: 2px solid #e64c00;
+  outline: none !important;
+  border-radius: 5px;
 }
