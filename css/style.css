@@ -240,7 +240,6 @@ section .column .column-2 h1 {
 .contact-us-form label {
   display: block;
   width: 100%;
-  /* text-align: center; */
   justify-content: center;
   align-self: center;
 }
@@ -296,4 +295,20 @@ input:focus {
 
 .footer a:hover {
   color: #e64c00;
+}
+
+/**********Media Queries*****************/
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    overflow: auto;
+    height: 100px;
+    width: 80%;
+  }
+
+  .nav a {
+    flex-direction: row;
+    margin-top: 5px;
+  }
 }

@@ -46,6 +46,26 @@ button:hover {
   color: black;
 }
 
+#about-2 .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#about-2 .row .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
 section .column .column-2 a {
   border-width: 10%;
   background: transparent;
