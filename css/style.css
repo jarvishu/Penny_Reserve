@@ -332,6 +332,7 @@ input:focus {
   section .column .column-2 p {
     text-align: center;
     margin-top: 10px;
+    margin-right: 10px;
   }
   section .column .column-2 a {
     margin-left: 150px;
