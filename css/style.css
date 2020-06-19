@@ -51,6 +51,7 @@ span {
   width: 100%;
   height: 70px;
   opacity: 0.8;
+  transition: 1s ease-in;
 }
 
 .logo {
@@ -70,6 +71,10 @@ span {
 
 .nav .navbar ul {
   display: flex;
+}
+
+.nav.top {
+  background: transparent;
 }
 
 /*************BIG_SCREEN_DISPLAY***********/
